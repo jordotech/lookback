@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+/* line 2, ../sass/app.scss */
+body {
+  background-color: #000;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+/* line 14, ../sass/app.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+/* Paragraph & Typographic */
+/* line 22, ../sass/app.scss */
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+/* line 27, ../sass/app.scss */
+.centered {
+  text-align: center;
+}
+
+/* Links */
+/* line 33, ../sass/app.scss */
+a {
+  color: #f85c37;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+/* line 41, ../sass/app.scss */
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+/* line 46, ../sass/app.scss */
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* line 55, ../sass/app.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+/* line 67, ../sass/app.scss */
+.carousel-indicators {
+  bottom: 0px;
+}
+
+/* line 70, ../sass/app.scss */
+#headerwrap {
+  background: url(../../img/stills/full/lbf1.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 88, ../sass/app.scss */
+#headerwrap h1 {
+  margin-top: 150px;
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+}
+/* line 94, ../sass/app.scss */
+#headerwrap h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: oblique;
+}
+/* line 101, ../sass/app.scss */
+#headerwrap .logo {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* line 109, ../sass/app.scss */
+.section-content {
+  padding: 0 15px;
+  background: #000;
+  padding-top: 70px;
+  text-align: center;
+}
+/* line 114, ../sass/app.scss */
+.section-content h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+/* line 120, ../sass/app.scss */
+.section-content i {
+  font-size: 8px;
+  color: #fff;
+  padding: 3px;
+}
+/* line 125, ../sass/app.scss */
+.section-content p {
+  font-size: 20px;
+  color: #f2f2f2;
+}
+@media (max-width: 768px) {
+  /* line 125, ../sass/app.scss */
+  .section-content p {
+    font-size: 15px;
+  }
+}
+/* line 133, ../sass/app.scss */
+.section-content img {
+  text-align: center;
+}
+
+/* MENU CONF*/
+/* line 140, ../sass/app.scss */
+.menu {
+  position: fixed;
+  right: -200px;
+  width: 260px;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  text-align: left;
+}
+/* line 148, ../sass/app.scss */
+.menu.menu-open {
+  right: 0px;
+}
+
+/* line 153, ../sass/app.scss */
+.menu-wrap {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  background: #1a1a1a;
+  width: 200px;
+  height: 100%;
+}
+
+/* line 163, ../sass/app.scss */
+.menu h1.logo a {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 20px;
+}
+/* line 172, ../sass/app.scss */
+.menu h1.logo a:hover {
+  color: #f85c37;
+}
+/* line 176, ../sass/app.scss */
+.menu img.logo {
+  margin: 20px 0;
+  max-width: 160px;
+}
+/* line 180, ../sass/app.scss */
+.menu a {
+  margin-left: 20px;
+  color: #808080;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+/* line 189, ../sass/app.scss */
+.menu a:hover, .menu a:active {
+  color: #ffffff;
+}
+/* line 192, ../sass/app.scss */
+.menu a > i {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 25px;
+  font-size: 14px;
+  line-height: 40px;
+  margin: 25px 2px;
+}
+
+/* line 205, ../sass/app.scss */
+.menu-close {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  color: #808080;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 20px;
+  right: 5px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+/* line 221, ../sass/app.scss */
+.menu-close:hover {
+  color: #ffffff;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+/* Push the body after clicking the menu button */
+/* line 233, ../sass/app.scss */
+.body-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+/* line 239, ../sass/app.scss */
+.body-push-toright {
+  left: 200px;
+}
+
+/* line 243, ../sass/app.scss */
+.body-push-toleft {
+  left: -200px;
+}
+
+/* line 247, ../sass/app.scss */
+.menu, .body-push {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 255, ../sass/app.scss */
+#menuToggle {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 11;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+/* line 274, ../sass/app.scss */
+#menuToggle:hover {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+/* Contact Form */
+/* line 287, ../sass/app.scss */
+.contact-form {
+  text-align: left;
+}
+/* line 289, ../sass/app.scss */
+.contact-form label {
+  color: #999;
+}
+/* line 292, ../sass/app.scss */
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+/* line 299, ../sass/app.scss */
+.contact-form .form-send {
+  text-align: center;
+}
+/* line 301, ../sass/app.scss */
+.contact-form .form-send button {
+  background: #f0ad4e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* line 308, ../sass/app.scss */
+.contact-form .form-send button:hover {
+  background: #ffbc5d;
+}
+/* line 313, ../sass/app.scss */
+.contact-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+/* line 320, ../sass/app.scss */
+.contact-form .loading {
+  display: none;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+/* line 327, ../sass/app.scss */
+.contact-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+/* line 339, ../sass/app.scss */
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+/* line 348, ../sass/app.scss */
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* Copyrights */
+/* line 387, ../sass/app.scss */
+#copyrights {
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+/* line 392, ../sass/app.scss */
+#copyrights a {
+  color: #f0ad4e;
+}
+/* line 395, ../sass/app.scss */
+#copyrights p {
+  margin-bottom: 5px;
+}
+
+/* line 400, ../sass/app.scss */
+.credits {
+  color: #999;
+}
